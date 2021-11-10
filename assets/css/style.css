@@ -1,0 +1,323 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body {
+    background-color: #f8f8f8;
+}
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* --- Le code commence ici --- */
+
+
+.banner {
+
+  display: flex;
+  align-items:center;
+  justify-content:space-evenly;
+  color: #999999;
+  font-weight: bold;
+  position: fixed;
+  background-color: #1fe0; 
+width: 100%;
+font-size:1vh;
+
+}
+
+.slogan {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+}
+.slogan h3 {
+    display: flex;
+vertical-align: middle;
+    flex-direction: column; 
+ margin-left: 2em;
+ transform: translateY(200%);
+}
+.Logo {
+  display: flex;
+}
+
+
+
+.star {
+    color: yellow;
+}
+
+#note{
+    color: black;
+}
+
+a {
+  color: #999999;
+}
+.navigation ul {
+  display: flex;
+  list-style-type: none;
+  color: #999999;
+
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+.navigation li {
+  padding: 10px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.main-banner {
+  text-align: center;
+  height: 300px;
+  transform: translateY(30%);
+}
+
+.logoM2i {
+    width: 50%;
+}
+.main-banner h2 {
+  font-size: larger;
+}
+
+.main-banner h1 {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+input {
+  width: 60%;
+  border-radius: 3vh;
+  height: 5vh;
+}
+
+.formations {
+    text-align: center;
+}
+
+.formations h3 {
+    color: red;
+    font-size: x-large;
+    font-weight: bolder;
+    padding-left: 5%;
+    padding-bottom: 2vh;
+}
+
+.formations:nth-child(3) h3
+{color: black;}
+
+.formations_card {
+    display: flex;
+    justify-content: center;
+}
+
+.formation {
+    padding: 1vh;
+    margin: 1vh;
+}
+
+.formation:hover {
+    background-color: #ebe8e8;
+}
+
+.formation h4 {
+    justify-content: center;
+    margin-bottom: 1em;
+    display: flex;
+    font-weight: bolder;
+}
+
+.tiny_info {
+    color: red;
+}
+img {
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+
+justify-content: space-around;
+padding: 0 1em;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cards :nth-child(2n+1) {
+  flex-direction: row-reverse;
+}
+
+.card_content {
+margin-left: 13em;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+
+}
+.tiny_card_objective {
+    margin-bottom: 1em;
+}
+.card_objective {
+    margin-bottom: 1em;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.card_text {
+    color: #999999;
+}
+.dessin {
+    width: 30%;
+}
+
+.More {
+    background-color: red;
+    color: white;
+    width: 8em;
+    padding : 1vh;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+display: inline;
+
+}
+
+.tiny_card_objective {
+    color: red;
+    font-size: small;
+    font-weight: bold;
+}

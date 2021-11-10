@@ -1,247 +1,304 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <link href="./assets/css/style.css" rel="stylesheet">
     <title>M2i-Formation</title>
 </head>
+
 <body>
-<header>
-    <div id = "banner">
-        <div id = "Logo"></div>
-        <nav class="navigation"></nav>
-    </div>
-    <div class="main-banner">
-        <div id="description">
-            <h2>Bienvenu chez le leader de la formation IT, Digital et management de France</h2>
-            <h1>Trouvez votre formation</h1>
+    <header>
+        <div class="banner">
+            <!--<video width="320" height="240" autoplay loop muted>
+            <source src="https://www.m2iformation.fr/video/home.mp4?v=2" type="video/mp4" />
+          </video> -->
+            <div class="Logo">
+                <img class="logoM2i" src="./assets/images/logom2iformationblue.svg">
+                <div class="slogan">
+                    <h3>Développez vos talents</h3>
+                    <h3>Certifiez vos compétences</h3>
+                </div>
+            </div>
+            <div class="navigation">
+                <ul>
+                    <li><a href="#">FORMATION</a></li>
+                    <li><a href="#">DIPLOME ET CERTIFICATIONS</a></li>
+                    <li><a href="#">MODALITES</a></li>
+                    <li><a href="#">FINANCEMENTS</a></li>
+                    <li><a href="#">CPF</a></li>
+                    <li><a href="#">POE</a></li>
+                    <li><a href="#">FNE</a></li>
+                    <i class="fa-solid fa-pipe"></i>
+                    <li><a href="#"><i class="fas fa-search"></i></a></li>
+                    <li><a href="#"><i class="fas fa-user"></i></a></li>
+                    <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+                </ul>
+            </div>
         </div>
-        <div id="recherche">
-            <input type = "text" id="recherche">
-            <img class="loupe" src="#" alt="loupeDeRecherche">
-        </div>
-        <div class="avis">
-            <div id="note"></div>
-            <img class="etoile" src="#" alt="Etoiles notes">
-            <p id ="avisVerif">Avis vérifiés</p>
-        </div>
-    </div>
-</header>
+        <div class="main-banner">
+            <div id="description">
+                <h2>Bienvenu chez le leader de la formation IT, Digital et management de France</h2>
+                <h1>Trouvez votre formation</h1>
+            </div>
+            <div id="recherche">
+                <input type="text" id="recherche">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="avis">
+                <div id="note"></div>
+                <id class="note">4,5</id>
+                <div class="star">
 
-<div class = "formations">
-    <h3>Découvrez nos formations 2022 disponibles en présentiel ou a distance</h3>
-    <article>
-        <div class="formation">
-            <h4>Titre</h4>
-            <img class="photo">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fa fa-star-half" aria-hidden="true"></i>
+                </div>
+                <p id="avisVerif">Avis vérifiés</p>
+            </div>
         </div>
-    </article>
-    <article>
-        <h4>Titre</h4>
-        <img class="photo"></article>
-    <article>
-        <h4>Titre</h4>
-        <img class="photo"></article>
-    <article>
-        <h4>Titre</h4>
-        <img class="photo"></article>
-</div>
+    </header>
 
-<div class= "formations">
-    <article>
-        <p class="profil">Entreprises</p>
-        <h4>Titre</h4>
-        <img class="photo">
-    </article>
-    <article>
-        <p class="profil">Entreprises</p>
-        <h4>Titre</h4>
-        <img class="photo">
-    </article>
-    <article>
-        <p class="profil">Entreprises</p>
-        <h4>Titre</h4>
-        <img class="photo">
-    </article>
-    <article>
-        <p class="profil">Entreprises</p>
-        <h4>Titre</h4>
-        <img class="photo">
-    </article>  
-</div>
-<div class="cards">
-    <div class="card">
-        <img class="photo">
-        <div class="card_content">
-            <div class="tiny_card_objective"></div>
-            <div class="card_objective"></div>
-            <div class="card_content"></div>
-            <div class="More">En savoir plus</div>
+    <div class="formations">
+        <h3>Découvrez nos formations 2022 disponibles en présentiel ou a distance</h3>
+        <div class="formations_card">
+            <article>
+                <div class="formation">
+                    <h4>Formation en informatique</h4>
+                    <img class="photo" src="./assets/images/formation1.JPG">
+                </div>
+            </article>
+            <article>
+                <div class="formation">
+                    <h4>Formations en bureautique</h4>
+                    <img class="photo" src="./assets/images/formation2.JPG">
+                </div>
+            </article>
+
+            <article>
+                <div class="formation">
+                    <h4>Formations en management</h4>
+                    <img class="photo" src="./assets/images/formation3.JPG">
+                </div>
+            </article>
+
+            <article>
+                <div class="formation">
+                    <h4>Formations en digital et digital</h4>
+                    <img class="photo" src="./assets/images/formation4.JPG">
+                </div>
+            </article>
+        </div>
+    </div>
+
+
+    <div class="formations">
+        <h3>Financez votre formation</h3>
+        <div class="formations_card">
+            <article>
+                <div class="formation">
+                    <p class="tiny_info">Entreprises</p>
+                    <h4>Formation en informatique</h4>
+                    <img class="photo" src="./assets/images/fne.jpg">
+                </div>
+            </article>
+            <article>
+                <div class="formation">
+                    <p class="tiny_info">Particuliers</p>
+                    <h4>Formations en bureautique</h4>
+                    <img class="photo" src="./assets/images/cpf.JPG">
+                </div>
+            </article>
+
+            <article>
+                <div class="formation">
+                    <p class="tiny_info">Entreprises</p>
+                    <h4>Formations en management</h4>
+                    <img class="photo" src="./assets/images/opco.jpg">
+                </div>
+            </article>
+
+            <article>
+                <div class="formation">
+                    <p class="tiny_info">Entreprises et particulier</p>
+                    <h4>Formations en digital et digital</h4>
+                    <img class="photo" src="./assets/images/poe.jpg">
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <img class="dessin" src="assets/images/transformation-digitale.png">
+            <div class="card_content">
+                <div class="tiny_card_objective">Transformation digitale</div>
+                <div class="card_objective">Soyez acteur de la transformation digitale</div>
+                <div class="card_text">La digitalisation est un phénomène transverse qui touche l'ensemble des services et départements de l'entreprise. C'est aussi une aventure qui doit s'intégrer dans une stratégie globale. Découvrez notre offre de formation qui répond aux grandes interrogations de l'entreprise digitale.</div>
+                <div class="More"><a href="#"><i class="fas fa-arrow-right">  </i>      En savoir plus</a></div>
+            </div>
         </div>
         <div class="card">
-            <img class="photo">
+            <img class="dessin"  src="assets/images/deploiements-strategiques.png">
             <div class="card_content">
-                <div class="tiny_card_objective"></div>
-                <div class="card_objective"></div>
-                <div class="card_content"></div>
-                <div class="More">En savoir plus</div>
+                <div class="tiny_card_objective">Transformation digitale</div>
+                <div class="card_objective">Soyez acteur de la transformation digitale</div>
+                <div class="card_text">La digitalisation est un phénomène transverse qui touche l'ensemble des services et départements de l'entreprise. C'est aussi une aventure qui doit s'intégrer dans une stratégie globale. Découvrez notre offre de formation qui répond aux grandes interrogations de l'entreprise digitale.</div>
+                <div class="More"><a href="#"><i class="fas fa-arrow-right">  </i>      En savoir plus</a></div>
             </div>
-            <div class="card">
-                <img class="photo">
-                <div class="card_content">
-                    <div class="tiny_card_objective"></div>
-                    <div class="card_objective"></div>
-                    <div class="card_content"></div>
-                    <div class="More">En savoir plus</div>
-                </div>
-                <div class="card">
-                    <img class="photo">
-                    <div class="card_content">
-                        <div class="tiny_card_objective"></div>
-                        <div class="card_objective"></div>
-                        <div class="card_content"></div>
-                        <div class="More">En savoir plus</div>
-                    </div>
-        
-    </div>
-</div>
-
-<div class="emplois">
-    <div class="emploi">
-        <div class="localisation"></div>
-        <div class="metier"></div>
-        <img class="job_photo">
-    </div>
-    <div class="emploi">
-        <div class="localisation"></div>
-        <div class="metier"></div>
-        <img class="job_photo">
-    </div>
-</div>
-
-<div class="universM2i">
-    <div id="titleUnivers">L'univers M2i</div>
-    <div class="processusCards">
-        <img>
-        <div class="card_title_m2i"></div>
-        <div class="More">
-            <img name="fleche">
-            <div class="more_content">En savoir plus</div>
         </div>
-
-    </div>
-</div>
-
-<div class="news">
-    <div class="news_card">
-        <div class="card_tiny_news"></div>
-        <div class="card_news_title"></div>
-        <img class="photo_news">
-        <div class="date"></div>
-    </div>
-    <div class="news_card">
-        <div class="card_tiny_news"></div>
-        <div class="card_news_title"></div>
-        <img class="photo_news">
-        <div class="date"></div>
-    </div>
-    <div class="news_card">
-        <div class="card_tiny_news"></div>
-        <div class="card_news_title"></div>
-        <img class="photo_news">
-        <div class="date"></div>
-    </div>
-</div>
-<div id="carte">
-    <img name="carte">
-</div>
-<div id="subBanner">
-    <div id="titleMain"></div>
-    <div id="contact"></div>
-</div>
-
-<div class="carousel">
-    <div id="carousel_title">Ils nous font confiance</div>
-    <div class="carousel_photos">
-        <img class="phoho">
-        <img class="phoho">
-        <img class="phoho">
-        <img class="phoho">
-        <img class="phoho">
-        <img class="phoho">
-        <img class="phoho">
-        <img class="phoho">
-        <img class="phoho">
-    </div>
-</div>
-<footer>
-    <div class="footer_nav">
-        <img>
-        <p></p>
-    </div>
-    <div class="footer_nav">
-        <h6>Title</h6>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        <p></p>
-    </div>
-    <div class="footer_nav">
-        <h6>Title</h6>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        <p></p>
-    </div>
-    <div class="footer_nav">
-        <h6>Title</h6>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        <p></p>
-    </div>
-    <div class="footer_nav">
-        <h5>téléphone</h5>
-        <div class="socials_nav">
-            <div class="social_nav"></div>
-            <div class="social_nav"></div>
-            <div class="social_nav"></div>
-            <div class="social_nav"></div>
+        <div class="card">
+            <img class="dessin"  src="assets/images/bulle-innovation.png">
+            <div class="card_content">
+                <div class="tiny_card_objective">Transformation digitale</div>
+                <div class="card_objective">Soyez acteur de la transformation digitale</div>
+                <div class="card_text">La digitalisation est un phénomène transverse qui touche l'ensemble des services et départements de l'entreprise. C'est aussi une aventure qui doit s'intégrer dans une stratégie globale. Découvrez notre offre de formation qui répond aux grandes interrogations de l'entreprise digitale.</div>
+                <div class="More"><a href="#"><i class="fas fa-arrow-right">  </i>      En savoir plus</a></div>
+            </div>
+        </div>
+        <div class="card">
+            <img class="dessin" src="assets/images/cybersecurite.png">>
+            <div class="card_content">
+                <div class="tiny_card_objective">Transformation digitale</div>
+                <div class="card_objective">Soyez acteur de la transformation digitale</div>
+                <div class="card_text">La digitalisation est un phénomène transverse qui touche l'ensemble des services et départements de l'entreprise. C'est aussi une aventure qui doit s'intégrer dans une stratégie globale. Découvrez notre offre de formation qui répond aux grandes interrogations de l'entreprise digitale.</div>
+                <div class="More"><a href="#"><i class="fas fa-arrow-right">  </i>      En savoir plus</a></div>
+                
+            </div>
         </div>
     </div>
-</footer>
+
+    <div class="emplois">
+        <div class="emploi">
+            <div class="localisation"></div>
+            <div class="metier"></div>
+            <img class="job_photo">
+        </div>
+        <div class="emploi">
+            <div class="localisation"></div>
+            <div class="metier"></div>
+            <img class="job_photo">
+        </div>
+    </div>
+
+    <div class="universM2i">
+        <div id="titleUnivers">L'univers M2i</div>
+        <div class="processusCards">
+            <img>
+            <div class="card_title_m2i"></div>
+            <div class="More">
+                <img name="fleche">
+                <div class="more_content">En savoir plus</div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="news">
+        <div class="news_card">
+            <div class="card_tiny_news"></div>
+            <div class="card_news_title"></div>
+            <img class="photo_news">
+            <div class="date"></div>
+        </div>
+        <div class="news_card">
+            <div class="card_tiny_news"></div>
+            <div class="card_news_title"></div>
+            <img class="photo_news">
+            <div class="date"></div>
+        </div>
+        <div class="news_card">
+            <div class="card_tiny_news"></div>
+            <div class="card_news_title"></div>
+            <img class="photo_news">
+            <div class="date"></div>
+        </div>
+    </div>
+    <div id="carte">
+        <img name="carte">
+    </div>
+    <div id="subBanner">
+        <div id="titleMain"></div>
+        <div id="contact"></div>
+    </div>
+
+    <div class="carousel">
+        <div id="carousel_title">Ils nous font confiance</div>
+        <div class="carousel_photos">
+            <img class="phoho">
+            <img class="phoho">
+            <img class="phoho">
+            <img class="phoho">
+            <img class="phoho">
+            <img class="phoho">
+            <img class="phoho">
+            <img class="phoho">
+            <img class="phoho">
+        </div>
+    </div>
+    </div>
+
+    </div>
+
+    <footer>
+        <div class="footer_nav">
+            <img>
+            <p></p>
+        </div>
+        <div class="footer_nav">
+            <h6>Title</h6>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <p></p>
+        </div>
+        <div class="footer_nav">
+            <h6>Title</h6>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <p></p>
+        </div>
+        <div class="footer_nav">
+            <h6>Title</h6>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <p></p>
+        </div>
+        <div class="footer_nav">
+            <h5>téléphone</h5>
+            <div class="socials_nav">
+                <div class="social_nav"></div>
+                <div class="social_nav"></div>
+                <div class="social_nav"></div>
+                <div class="social_nav"></div>
+            </div>
+        </div>
+    </footer>
 </body>
-=======
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>M2i-Formation</title>
-</head>
-<body>
-    
-</body>
->>>>>>> 753dd5954cedc7a3fd66aa6fda8c64a2571f9d8f
+
 </html>
